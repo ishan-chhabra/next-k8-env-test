@@ -4,6 +4,7 @@ const Client = () => {
   console.log({
     client: {
       someEnvVar: process.env.NEXT_PUBLIC_SOME_ENV_VAR,
+      fullProcessEnv: process.env,
     },
   });
 
